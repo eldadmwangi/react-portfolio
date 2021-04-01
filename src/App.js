@@ -6,6 +6,7 @@ import Services from './components/Services';
 import Projects from './components/Projects';
 import AboutUs from './components/AboutUs';
 import Home from './components/Home';
+import Contacts from './components/Contacts';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
        <Route path='/AboutUs' exact component={AboutUs}/>
        <Route path='/Services' exact component={Services}/>
        <Route path='/Projects' exact component={Projects}/>
+       <Route path='/Contacts' exact component={Contacts}/>
+       <Route path='/' render={()=><div>404 Error</div>}/>
+       
      </Switch>
     
     </BrowserRouter>
