@@ -10,6 +10,8 @@ import Contacts from './components/Contacts';
 
 function App() {
   return (
+    <>
+    
     <BrowserRouter>
      <Navbar/>
      <Switch>
@@ -23,6 +25,7 @@ function App() {
      </Switch>
     
     </BrowserRouter>
+    </>
   );
 }
 
