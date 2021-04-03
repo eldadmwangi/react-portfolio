@@ -1,7 +1,7 @@
 import React from 'react'
 import Typed from 'react-typed';
 import {Link} from 'react-router-dom'
-import { FaFacebook, FaGitAlt, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 function HeroSection() {
     return (
