@@ -81,7 +81,7 @@ function HeroSection() {
               <FaGithub/>
              </Link>
           </div>
-          <small className='website-rights'>Eldad-shop &copy; 2021</small>
+          <small className='website-rights'>eldad-porfolio &copy; 2021</small>
         </footer>
 
     </div>
