@@ -12,7 +12,9 @@ body{
 .logo{
   height: 3.8rem;
   width:3.75rem;
-
+}
+a.navbar-brand{
+  color:white !important;
 }
 /*---navigation links styling....*/
 .navbar{
@@ -60,6 +62,11 @@ nav .nav-link:hover{
    height: 100vh;
  }
 .hero-text{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   color:black;
   display: flex;
   flex-direction: column;
@@ -70,6 +77,11 @@ nav .nav-link:hover{
   font-family:'Poppins', sans-serif !important;
   text-transform: capitalize;
 }
+.hero-header{
+
+  font-size:2.5rem !important;
+  font-weight: bold;
+}
 /*....typed text...*/
 .typed-text{
   font-size: 2rem;
@@ -78,7 +90,8 @@ nav .nav-link:hover{
 /*.....btn-offer styling---*/
 .btn-outline{
   border: 1px solid #1c2238;
-  color: black !important;
+  background-color: rgb(105, 71, 255);
+  color:white !important;
   text-transform: uppercase;
   border-radius: 5px;
   padding: 5px 12px 5px 12px;
@@ -87,3 +100,11 @@ nav .nav-link:hover{
   background-color: blue;
   color: var(--primary-white) !important;
 } */
+
+/*----Foooter-area----*/
+.footer-area{
+  background: #091216 !important;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
