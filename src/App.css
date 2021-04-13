@@ -85,23 +85,25 @@ nav .nav-link:hover{
 /*....typed text...*/
 .typed-text{
   font-size: 2rem;
+  /* color:rgb(12, 11, 11); */
   color:white;
 }
 /*.....btn-offer styling---*/
 .btn-outline{
   border: 1px solid #1c2238;
-  background-color: rgb(105, 71, 255);
+  background-color: rgb(26, 14, 80);
   color:white !important;
   text-transform: uppercase;
   border-radius: 5px;
   padding: 5px 12px 5px 12px;
 }
-/* .contact-button :hover{
-  background-color: blue;
+ .contact-button :hover{
+  background-color: rgb(28, 28, 31);
   color: var(--primary-white) !important;
-} */
+  font-weight: bold !important;
+} 
 
-/*----Foooter-area----*/
+/* ----Foooter-area----
 .footer-area{
   background: #000000 !important;
   position: relative !important;
@@ -181,7 +183,10 @@ nav .nav-link:hover{
   font-size: 0.9rem;
   margin-top: 2rem;
 }
+.website-rights :hover{
+  background-color: #05364d !important;
 
+} */
 
 
 /*--------Particles style-----*/

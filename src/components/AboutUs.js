@@ -1,9 +1,11 @@
 import React from 'react'
+import Footer from './Footer'
 
 function AboutUs() {
     return (
         <div>
-            About us
+            about us
+            <Footer/>
         </div>
     )
 }
