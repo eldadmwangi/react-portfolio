@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 import cool from './hero-images/cool.jpeg'
 import SignUp from './SignUp'
 
@@ -15,6 +16,7 @@ function Contacts() {
                     <img className='img-fluid w-100' src={cool} alt='cool'/>
                 </div>
            </div>
+           <Footer/>
         </div>
     )
 }
