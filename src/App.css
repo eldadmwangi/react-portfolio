@@ -85,6 +85,7 @@ nav .nav-link:hover{
 /*....typed text...*/
 .typed-text{
   font-size: 2rem;
+  
   /* color:rgb(12, 11, 11); */
   color:white;
 }
@@ -94,8 +95,11 @@ nav .nav-link:hover{
   background-color: rgb(26, 14, 80);
   color:white !important;
   text-transform: uppercase;
-  border-radius: 5px;
-  padding: 5px 12px 5px 12px;
+  border-radius: 10px;
+  padding: 2px 2px 2px 2px;
+}
+.contact-button{
+  margin-top: 50px !important;
 }
  .contact-button :hover{
   background-color: rgb(28, 28, 31);

@@ -10,7 +10,7 @@ function ServiceCards() {
                 <div className='col-lg-12'>
                   <div className='main_title'>
                       <p className='top_text'>Our Services</p>
-                      <h2>What Service We Offer You</h2>
+                      <h2>What Servicess We Offer You</h2>
                       </div>  
                 </div>
             </div>

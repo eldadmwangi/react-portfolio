@@ -10,7 +10,7 @@ function Navbar() {
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-dark">
                 <div className='container'>
-  <Link className="navbar-brand" to="/"> <img  className='logo' src={logo1}/> Eldad
+  <Link className="navbar-brand" to="/"> <img  className='logo' src={logo1}/> {name}
   </Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <FaBars style={{color:'white'}}/>
